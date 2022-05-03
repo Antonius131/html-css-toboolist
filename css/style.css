@@ -84,18 +84,28 @@ hr {
 
 
 
-/* list items */
+/* list item blocks */
 
 .toboo-list-items {
-    padding: 30px 0px;
+    padding-bottom: 30px;
 }
+
+.list-block {
+    margin-top: 30px;
+}
+
+
+/* item title */
 
 h2:before {
     content: '\25BE';
 }
 
-.list-items {
-    margin-top: 10px;
+
+/* items */
+
+.list-item {
+    margin-top: 15px;
 }
 
 .item-checked {
@@ -107,15 +117,42 @@ h2:before {
     border-radius: 50%;
 }
 
+.item-unchecked {
+    vertical-align: middle;
+    font-size: 9px;
+    color: #eb0052;
+    padding: 3px;
+    border: 1px solid #eb0052;
+    border-radius: 50%;
+}
+
 .item-text {
     margin-left: 6px;
 }
+
+
+/* captions */
 
 .item-caption {
     margin-left: 6px;
     padding: 5px 12px;
     font-size: 9px;
     color: #fff;
-    background-color: #00aaf9;
     border-radius: 9px;
+}
+
+.editorial-caption {
+    background-color: #00aaf9;
+}
+
+.q1-caption {
+    background-color: #855cba;
+}
+
+.recruiting-caption {
+    background-color: #56ca93;
+}
+
+.mobile-caption {
+    background-color: #f8ad3b;
 }
