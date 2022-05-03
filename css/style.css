@@ -33,8 +33,8 @@ body {
 /* main content */
 
 main {
-    background-color: #f3f3f3;
-    padding: 20px 0px;
+    background-color: #F6F8F9;
+    padding: 42px 0px;
 }
 
 .container {
@@ -155,4 +155,12 @@ h2:before {
 
 .mobile-caption {
     background-color: #f8ad3b;
+}
+
+.website-caption {
+    background-color: #f86bcc;
+}
+
+.sales-caption {
+    background-color: #aed76d;
 }
