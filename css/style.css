@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo-container {
+    margin: 10px 20px;
+}
+
+#logo {
+    height: 50px;
+    vertical-align: bottom;
+}
+
+#logo-text {
+    font-size: 40px;
+    font-weight: 700;
+}
